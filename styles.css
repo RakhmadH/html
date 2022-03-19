@@ -1,0 +1,171 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:10%;
+}
+
+.layar{
+    height:100%;
+    
+}
+
+@media all and (min-width:375px){
+
+    .container{
+        background-color: hsl(0deg 0% 100%);
+        display:flex;
+        flex-direction:column;
+        width: 500px;
+        height: 800px;
+        border-radius: 20px;
+        margin: 30px 30px;
+        box-shadow: 14px 20px 38px -30px rgb(0 0 0 / 75%);
+        
+    }
+    
+    .box {
+        padding: 20px 50px 10px 50px;
+        width: 400;
+        height: 500px;
+        border-radius: 20px;
+      }
+    
+     
+    .gambar img{
+        width: 500px;
+        height: 300px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .judul_teks{
+        font-weight: 900;
+        font-family: "Manrope",sans-serif;
+        font-size: 24px;
+        color:hsl(217, 19%, 35%)
+    }
+    
+    .teks{
+        font-family: "Manrope",sans-serif;
+        color: hsl(214, 17%, 51%);
+        font-weight:600;
+        font-size:20;
+    }
+    
+    .dekMichelle{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    
+    .girl img{
+        height:75px;
+        width:75px;
+        border-radius: 50px;
+        margin-top: 10px;
+    
+    }
+    .identitas{
+        display: flex;
+        flex-direction: column;
+        margin:10px 0px 0px 20px;
+        font-size: 17;
+    }
+    
+    .nama{
+        font-family: "Manrope",sans-serif;
+        color: hsl(217, 19%, 35%);
+        font-weight: 900;
+        font-size: 23px;
+    }
+    
+    .date{
+        font-family: "Manrope",sans-serif;
+        font-weight: 600;
+        color: hsl(214, 17%, 51%);
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width:1440px){
+
+    .container{
+        background-color: hsl(0deg 0% 100%);
+        display: flex;
+        flex-direction: row;
+        width: 890px;
+        height: 350px;
+        border-radius: 20px;
+        margin: 30px 30px;
+        box-shadow: 14px 20px 38px -30px rgb(0 0 0 / 75%);
+    }
+    
+    .box {
+        padding: 15px 40px 20px 40px;
+        width: 500px;
+        height: 310px;
+        border-radius: 20px;    
+      }
+    
+     
+    .gambar img{
+        width: 340px;
+        height: 350px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    
+    .judul_teks{
+        font-weight: 900;
+        font-family: "Manrope",sans-serif;
+        font-size: 24px;
+        color:hsl(217, 19%, 35%);
+        padding: 0px 10px 0px 15px;
+    }
+    
+    .teks{
+        font-family: "Manrope",sans-serif;
+        color: hsl(214, 17%, 51%);
+        font-weight:600;
+        font-size:16px;
+        padding: 0px 0px 0px 15px;
+    }
+    
+    .dekMichelle{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 0px 0px 0px 15px;
+    }
+    
+    .girl img{
+        height:50px;
+        width:50px;
+        border-radius: 50px;
+        margin-top: 10px;
+    
+    }
+    .identitas{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px 0px 20px;
+        font-size: 17px;
+    }
+    
+    .nama{
+        font-family: "Manrope",sans-serif;
+        color:hsl(217, 19%, 35%);
+        font-weight: 900;
+        font-size: 18px;
+    }
+    
+    .date{
+        font-family: "Manrope",sans-serif;
+        font-weight:600;
+        font-size:17;
+     
+        color:hsl(214, 17%, 51%);
+    }
+}
